@@ -1,0 +1,306 @@
+section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .contyner {
+        display: flex;
+
+
+
+        .img1 {
+            display: flex;
+            padding: 40px 0 0 60px;
+
+            .img {
+                width: 290px;
+                height: 200px;
+            }
+
+            .img1-matnlari {
+                padding: 20px 40px;
+
+                p {
+                    font-size: 20px;
+                    color: rgb(137, 137, 137);
+                    max-width: 580px;
+                    line-height: 28px;
+
+                }
+
+                h3 {
+                    font-size: 26px;
+                    padding: 0 0 16px 0;
+                }
+            }
+
+            .img-qoshimchasi {
+                display: flex;
+                padding: 28px 0 0 0;
+
+                div {
+                    display: flex;
+
+                    strong {
+                        margin-top: 10px;
+                        margin-left: 5px;
+                    }
+                }
+
+                p {
+                    color: rgb(116, 113, 113);
+                    margin-top: 10px;
+                    margin-left: 100px;
+                }
+            }
+        }
+
+        .img2 {
+            padding: 60px 40px;
+
+            h2 {
+                padding: 0 0 30px 0;
+            }
+
+            .img2-matnlar {
+                display: flex;
+                padding: 20px 0 0 0;
+
+
+                div {
+                    padding: 20px;
+                }
+            }
+
+            p {
+                font-size: 20px;
+                font-weight: 550;
+                max-width: 200px;
+                padding: 0 0 20px 0;
+            }
+
+            span {
+                color: rgb(126, 126, 126);
+
+            }
+        }
+    }
+
+    .buttonlar button {
+        padding: 20px 25px;
+        border-radius: 25%;
+        font-size: 30px;
+        border: solid 2px rgb(193, 188, 188);
+        background-color: white;
+    }
+
+    .buttonlar {
+        text-align: center;
+        padding: 30px;
+
+        .button1 {
+            background-color: black;
+            color: white;
+        }
+    }
+
+    .img3 {
+        background-image: url(../rasm.png);
+        height: 434px;
+        width: 400px;
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+        }
+
+        span {
+            margin-top: -70px;
+        }
+
+
+    }
+
+    .img4 {
+        background-image: url(../rasm2.png);
+        height: 442px;
+        width: 1280px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h3 {
+            font-weight: 600;
+            font-size: 48px;
+        }
+
+        p {
+            color: rgb(131, 127, 127);
+            padding: 20px 0 0 0;
+            line-height: 25px;
+
+        }
+
+        .search {
+            text-align: center;
+            padding: 80px 0 0 0;
+
+            input {
+                width: 480px;
+                height: 65px;
+                border-radius: 20px;
+                padding: 0 20px;
+                font-size: 17px;
+
+            }
+
+            button {
+                margin-left: -140px;
+                color: white;
+                background-color: black;
+                padding: 15px 40px;
+                border-radius: 20px;
+
+            }
+        }
+    }
+
+    .div3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 550px;
+        margin-top: 160px;
+        margin-bottom: 94px;
+
+        .foodname {
+            display: flex;
+            flex-direction: column;
+
+            strong {
+                font-size: 20px;
+                font-weight: 800;
+            }
+
+            p {
+                color: rgb(109, 108, 108);
+                margin-top: 10px;
+            }
+
+        }
+
+        .linklar {
+
+
+            a {
+                text-decoration: none;
+                color: black;
+                margin-left: 30px;
+
+            }
+        }
+    }
+
+    .footer {
+        display: flex;
+        padding: 0 0 50px 400px;
+
+        span {
+            color: red;
+        }
+
+        img {
+            padding: 0 0 0 450px;
+        }
+    }
+
+}
+
+@media(max-width:500px) {
+    section {
+        .contyner {
+            display: flex;
+            flex-direction: column;
+
+            div {
+                .img1 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    padding: 0 0 0 10px;
+
+                    img {
+                        margin-left: -60px;
+
+                    }
+
+
+
+
+                    .img1-matnlari {
+                        padding: 30px;
+
+                        h3 {
+                            font-size: 20px;
+                            max-width: 300px;
+                        }
+
+                        p {
+                            font-size: 18px;
+                            max-width: 350px;
+                        }
+                    }
+
+                    .img-qoshimchasi {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        margin-left: -130px;
+
+                        p {
+                            margin-left: -30px;
+                            margin-top: -3px;
+                        }
+
+                    }
+
+                }
+
+            }
+
+
+        }
+
+        .img2 {
+
+            h2 {
+                text-align: center;
+            }
+
+        }
+
+    }
+
+    .img4 {
+        max-width: 500px;
+        flex-wrap: wrap;
+
+    }
+    
+}

@@ -1,0 +1,72 @@
+section {
+    width: 100%;
+    height: auto;
+
+    h1 {
+        font-size: 64px;
+        line-height: 77px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .lorem {
+        text-align: center;
+        margin-top: 24px;
+        font-size: 20px;
+        color: rgb(144, 142, 142);
+    }
+
+    .search {
+        text-align: center;
+        padding: 80px 0 0 0;
+
+        input {
+            width: 650px;
+            height: 80px;
+            border-radius: 20px;
+            padding: 0 20px;
+            font-size: 17px;
+
+        }
+
+        button {
+            margin-left: -160px;
+            color: white;
+            background-color: black;
+            padding: 20px 50px;
+            border-radius: 20px;
+
+        }
+    }
+}
+@media(max-width:500px){
+    section{
+        h1{
+            font-size: 50px;
+            text-align: center;
+        }
+        .search{
+           
+            input{
+             
+               
+                width: 350px;
+                height: 80px;
+               font-size: 13px;
+               margin-left: -50px;
+               margin-bottom: 20px;
+            }
+            button{
+                padding: 20px 30px;
+              margin-left: -130px;
+            }
+        }
+        .saytlar{
+            margin-left: auto;
+        }
+        .lorem{
+            font-size: 16px;
+            padding: 0 20px;
+        }
+    }
+}
